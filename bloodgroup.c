@@ -6,11 +6,11 @@ void main()
   int i;
   do
   {
-    printf("Can you tell me , What is your Name? ");
+    printf("Can you tell me , What is your Name , I mean real name? ");
     scanf("%s", Name);
     do
     {
-      printf("What is your blood group [A, B, AB, or O]? ");
+      printf("What is your blood group [A, B, AB, O ,AB+ or AB-]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") != 0 &&
